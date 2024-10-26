@@ -1,0 +1,9 @@
+<div class="container-card">
+  <div class="foto"><img src="{{ infoCard.foto }}" alt=""></div>
+  <div class="info">
+    <p>{{ infoCard.nome }}</p>
+    <p>{{ infoCard.subobjeto.propriedade1 }}</p>
+    <p>{{ infoCard.subobjeto.propriedade2 }}</p>
+  </div>
+  <a href="mailto:{{ infoCard.email }}" class="email">{{ infoCard.email }}</a>
+</div>

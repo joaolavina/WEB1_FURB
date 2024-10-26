@@ -1,0 +1,14 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-header {
+  height: 10%;
+}
+
+app-footer {
+  height: 5%;
+}

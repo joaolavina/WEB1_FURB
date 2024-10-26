@@ -1,0 +1,23 @@
+nav menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 20px 30px;
+  font-size: 1.5em;
+  /* margin: 0px 10px; */
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  /* padding: 20px; */
+}
+
+li:hover{
+  background-color: #905934;
+}

@@ -1,0 +1,26 @@
+<p>{{ vCadastro.id }}</p>
+<p>{{ vCadastro.nome }}</p>
+<p>{{ vCadastro.departamento }}</p>
+<p>{{ vCadastro.endereco }}</p>
+<p>{{ vCadastro.email }}</p>
+
+
+<input type="text" [(ngModel)]="vCadastroId">
+<label for="btn-consulta">Consultar:</label>
+<button id="btn-consulta" (click)="buscaCadastro(vCadastroId)" type="button">Consultar</button>
+<br> <!-- DEPOIS APAGAR ESSE BR-->
+<label for="btn-deletar">Deletar:</label>
+<button id="btn-deletar" (click)="deletaCadastro(vCadastroId)" type="button">Deletar</button>
+<br> <!-- DEPOIS APAGAR ESSE BR-->
+
+<section>
+<input type="text" [(ngModel)]="vCadastro.id">
+<input type="text" [(ngModel)]="vCadastro.nome">
+<input type="text" [(ngModel)]="vCadastro.departamento">
+<input type="text" [(ngModel)]="vCadastro.endereco">
+<input type="text" [(ngModel)]="vCadastro.email">
+<button type="button" (click)="alteraCadastro()">Alterar</button>
+</section>
+
+<p> {{ vStatus.status }}</p>
+<p> {{ vStatus.mensagem }}</p>
